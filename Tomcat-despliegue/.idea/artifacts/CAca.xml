@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="CAca">
+    <output-path>$PROJECT_DIR$/out/artifacts/CAca</output-path>
+    <root id="archive" name="CAca.war" />
+  </artifact>
+</component>
