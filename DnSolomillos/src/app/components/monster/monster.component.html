@@ -1,13 +1,9 @@
-<section>
-<!--  @for (monster of monsters; track monster.index) {-->
-<!--    <div>-->
-<!--      <h2>{{ monster.name }}</h2>-->
-<!--      <p>{{ monster.url }}</p>-->
+
+    <cdk-virtual-scroll-viewport itemSize="50" class="example-viewport">
+        <div *cdkVirtualFor="let monster of monsters" class="monster-card">{{ monster.name }}</div>
+    </cdk-virtual-scroll-viewport>
+
+<!--    <div *ngIf="selectedMonster">-->
+<!--        <h2>Detalles de: {{ selectedMonster.name }}</h2>-->
+<!--        <p>{{ selectedMonster.description || 'Sin descripción' }}</p>-->
 <!--    </div>-->
-<!--  }-->
-
-  <form action="." method="get">
-
-  </form>
-
-</section>

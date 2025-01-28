@@ -1,0 +1,13 @@
+div.monster-card {
+    width: 250px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+cdk-virtual-scroll-viewport {
+    height: 79vh;
+}
